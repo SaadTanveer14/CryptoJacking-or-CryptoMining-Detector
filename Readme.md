@@ -50,3 +50,30 @@ So in total, if the CPU usage crosses 85%, a single process has CPU usage > 85%,
     if((browserbool==True) and (cpubool==True) and (malfile==True) and (avgcpualert==True)):
         print("The process "+str(sorted_on_cpu_usage.loc[0]['Process'])+" with PID "+ str(sorted_on_cpu_usage.loc[0]['PID']) +" is CryptoMining")
 ```
+
+## Instructions
+
+- Download Code
+- Unzip the "script" folder name it the same. if you want add your own malicious script to test add in this folder.
+- Run python file "python CDS_ProcessExplorer.py"
+
+
+
+ <br /> <br /> <br />
+
+## After Running the python file process explorer will open up and automatically store file name Registry.txt to check all the process CPU usage.
+
+ <br /> <br />
+
+![](Readme%20images/Screenshot%20(107).png)
+
+ <br /> <br /> <br />
+## The screenshot below shows top 10 process with cpu usage and if it is a browser process checking if url using malicious script if it crosses CPU usage threshold.
+ <br /> <br />
+
+![](Readme%20images/Screenshot%20(108).png)
+ <br /> <br /> <br />
+## Checking all the condition in the infinite loop if finds it will tell like in the screenshot below.
+ <br /> <br />
+
+![](Readme%20images/Screenshot%20(109).png)
